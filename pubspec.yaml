@@ -1,0 +1,36 @@
+name: nasara_cm_mobile
+description: Application mobile NASARA Central Market — marché virtuel pour petits commerçants nigériens.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gestion d'état
+  flutter_riverpod: ^2.5.1
+
+  # Réseau
+  dio: ^5.4.3+1
+  web_socket_channel: ^2.4.0
+
+  # Stockage sécurisé du token JWT
+  flutter_secure_storage: ^9.2.2
+
+  # Navigation déclarative
+  go_router: ^14.2.0
+
+  # Utilitaires
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
